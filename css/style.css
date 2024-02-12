@@ -1,0 +1,92 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+        height: 90vh;
+        overflow-y: hidden;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 150px;
+        width: 100%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        height: 80vh;
+    }
+
+    a{
+        color: white;
+        margin: 30px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    h1{
+        color: white;
+        font-size: 100px;
+        font-family: 'Arial Narrow Bold';
+        text-align: center;
+        word-spacing: 300px;
+    }
+
+    span{
+        color: red;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        align-items: center;
+        word-spacing: 510px;
+        margin-right: 50px;
+    }
+
+    .logo{
+        border: solid 10px white;
+    }
+    .clouds{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 100%;
+    }
+
+    .cloud-left, 
+    .cloud-right{
+        width: 50%;
+    }
+
+    .account{
+        background-color: red;
+        border-radius: 20px;
+        color: aliceblue;
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rocket{
+        width: 200px;
+        height: 80%;
+        border: none;
+        justify-self: center;
+        position: absolute;
+        margin-left: 100px;
+    }
